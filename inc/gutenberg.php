@@ -33,9 +33,10 @@
 
 	add_action( 'init', 'twitpos_default_cover_color' );
 
+	//Enqueue Gutenberg Blocks 
 	function cephas_gutenberg_blocks() 
 	{
-		wp_register_script( 'custom-tweet-js', get_stylesheet_directory_uri() . '/js/gutenberg-tweet-block.js', array( 'wp-blocks' ));
+		wp_register_script( 'custom-tweet-js', get_stylesheet_directory_uri() . '/build/jsx/index.min.js', array( 'wp-blocks' ));
 		register_block_type('twitpos/custom-tweet', array(
 			'editor_script' => 'custom-tweet-js'
 		) );

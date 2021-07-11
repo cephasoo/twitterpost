@@ -1,0 +1,48 @@
+{
+  "name": "twentytwentyone-child",
+  "version": "1.0.0",
+  "description": "This is a gulp file for my child theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cephasoo/twitterpost.git"
+  },
+  "keywords": [
+    "gulpfile",
+    "child",
+    "theme",
+    "wordpress"
+  ],
+  "author": "cephas",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cephasoo/twitterpost/issues"
+  },
+  "homepage": "https://github.com/cephasoo/twitterpost#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^6.2.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.35.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
