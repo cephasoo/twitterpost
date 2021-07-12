@@ -57,7 +57,7 @@ gulp.task('scripts', function(done) {
 		.pipe( sourcemaps.write( './' ) )
 		.pipe( gulp.dest( scriptsDIST ) );
 	} );
-	done();
+	done()
 });
 
 //The Default Gulp Task
